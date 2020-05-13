@@ -2,8 +2,6 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-
 #title {
     text-align: center;
     background-color: #C8CDCC;
@@ -12,7 +10,6 @@ body {
 }
 
 h5 {
-    padding-top: 0px;
     font-size: medium;
     font-weight: lighter;
 }
@@ -22,26 +19,26 @@ h5 {
 }
 
 #img-div {
+    display: block;
+    text-align: center;
     background: white;
     text-align: center;  
     padding-bottom: 15px;      
 }
 
-#image {
-    display: block;
-    max-width: 100%;
-    text-align: center;
+#image {       
     padding-top: 35px; 
     padding-bottom: 25px;
+    max-width: 100%;
 }
-
 
 #img-caption {
     padding-top: 10px;
 }
 
 #tribute-info {
-    padding: 20px 400px 20px 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
